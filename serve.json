@@ -1,6 +1,6 @@
 {
   "public": "dist",
-  "rewrites": [{ "source": "**", "destination": "/index.html" }],
+  "rewrites": [{ "source": "src/", "destination": "/index.html" }],
   "headers": [
     {
       "source": "**",
