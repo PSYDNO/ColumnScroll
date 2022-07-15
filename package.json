@@ -4,11 +4,11 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "",
   "scripts": {
-    "test": "parcel src/index.html --open",
-    "start": "parcel src/index.html --open",
+
+    "start": "serve",
     
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
+
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
